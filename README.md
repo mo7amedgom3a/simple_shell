@@ -33,7 +33,7 @@ To compile the shell, use the following command:
 
 ```sh
 gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o myshell
-````
+```
 
 ### Usage
 
@@ -68,7 +68,3 @@ file1.txt file2.txt
 
 Contributions are welcome! If you find a bug or have a suggestion, please create an issue or a pull request.
 
-
-```
-
-Feel free to customize the content as needed for your specific project.```
