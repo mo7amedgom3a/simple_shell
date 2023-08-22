@@ -1,6 +1,3 @@
-Absolutely, here's the complete README.md content in Markdown format:
-
-```markdown
 # Simple Shell Project
 
 A basic implementation of a shell in C, allowing users to execute commands.
@@ -68,4 +65,4 @@ file1.txt file2.txt
 ## Contributing
 
 Contributions are welcome! If you find a bug or have a suggestion, please create an issue or a pull request.
-```
+
