@@ -1,4 +1,6 @@
-````markdown
+Absolutely, here's the complete README.md content in Markdown format:
+
+```markdown
 # Simple Shell Project
 
 A basic implementation of a shell in C, allowing users to execute commands.
@@ -12,7 +14,6 @@ A basic implementation of a shell in C, allowing users to execute commands.
   - [Usage](#usage)
 - [Example](#example)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
@@ -37,7 +38,7 @@ gcc -Wall -Werror -Wextra -pedantic -std=gnu89 *.c -o myshell
 
 ### Usage
 
-Interactive Mode
+#### Interactive Mode
 
 Run the shell in interactive mode by executing the compiled binary:
 
@@ -45,9 +46,9 @@ Run the shell in interactive mode by executing the compiled binary:
 ./myshell
 ```
 
-The shell will prompt with ($), and you can enter commands to execute.
+The shell will prompt with `($)`, and you can enter commands to execute.
 
-Non-Interactive Mode
+#### Non-Interactive Mode
 
 You can also use the shell in non-interactive mode by providing commands via input redirection:
 
@@ -55,7 +56,7 @@ You can also use the shell in non-interactive mode by providing commands via inp
 echo "/bin/ls" | ./myshell
 ```
 
-## Example
+### Example
 
 ```sh
 ($) /bin/ls
@@ -67,4 +68,4 @@ file1.txt file2.txt
 ## Contributing
 
 Contributions are welcome! If you find a bug or have a suggestion, please create an issue or a pull request.
-
+```
